@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a8689f207d1a33525e89d7ef344b6fd58d1c696486c83789f7df6efaddda3fd1.html">Create User</a></span>
+                > <span class="truncate-60"><a
+                    href="8c3de0f678d74cb619c01a94d395359bae50bf05ee5c1cb1b586cda1280199f6.html">create user on the platform </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-03-2022 23:44</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create User </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to automate the creation of a user on the automationtesting platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e0e727b5b6644c8f3cb483e99b843c02eb2334fec16c0b22bee3f4c672b65ca7.html">Scenario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">create user on the platform
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Cucumber exception: Arity mismatch: Step Definition 'co.com.choucair.certification.prueba.stepdefinitions.Stepdefinitions.theCreationIsCompletedByFillingInTheDataAndPressingTheButtonSubmit(String) in file:/C:/Users/ING.%20MANUEL%20BOLA%c3%91O/Desktop/pruebatecnicamanuel2-main/build/classes/java/test/' with pattern [^the creation is completed by filling in the data and pressing (.*)$] is declared with 1 parameters. However, the gherkin step has 2 arguments [the button submit, Table:[[button], [submit]]]. </span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>cucumber.runtime.CucumberException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource12862189724056772806.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="fc0ded1fe1d66165ffb8bb0dbd9eecaaf3110b6bb9703184f9c09c348662f318.png" title=" Given Manuel wants to access the platform" width="1360"/>
+                <img src="fc0ded1fe1d66165ffb8bb0dbd9eecaaf3110b6bb9703184f9c09c348662f318.png" title=" Manuel open up" width="1360"/>
+                <img src="fc0ded1fe1d66165ffb8bb0dbd9eecaaf3110b6bb9703184f9c09c348662f318.png" title=" Manuel opens the Principalpage" width="1360"/>
+                <img src="fc0ded1fe1d66165ffb8bb0dbd9eecaaf3110b6bb9703184f9c09c348662f318.png" title=" Manuel open up (completed)" width="1360"/>
+                <img src="fc0ded1fe1d66165ffb8bb0dbd9eecaaf3110b6bb9703184f9c09c348662f318.png" title=" Given Manuel wants to access the platform (completed)" width="1360"/>
+                <img src="87dc8ef7e797e3ce2ea37d359822726e34d30d65352961e0f084166863a44abd.png" title=" When entering the requested data
+| firstname | lastname | address | email | phone | country | year | month | day | pass | rpass |
+| Manuel | Bolano | Cerete-cordoba | manuelbgalindo@gmail.com | 3135349723 | japan | 1999 | april | 13 | Manuelandres1@ | Manuelandres1@ |" width="1360"/>
+                <img src="87dc8ef7e797e3ce2ea37d359822726e34d30d65352961e0f084166863a44abd.png" title=" Manuel register" width="1360"/>
+                <img src="87dc8ef7e797e3ce2ea37d359822726e34d30d65352961e0f084166863a44abd.png" title=" Manuel enters 'Manuel' into FirstName" width="1360"/>
+                <img src="2ec4cb2809346fef92158ba9eabef6592d7d1288071da7db33b8220b6e16f1ef.png" title=" Manuel enters 'Bolano' into Lastname" width="1360"/>
+                <img src="2ca95ababb55ac2f161be507ac70537277f70ec1ac9f8790bf56039d76344693.png" title=" Manuel enters 'Cerete-cordoba' into address" width="1360"/>
+                <img src="0cc435e4ad885e77aeed43f19988c6e3f631732acc6a8706ebbf655e470f5169.png" title=" Manuel enters 'manuelbgalindo@gmail.com' into email" width="1360"/>
+                <img src="1d9574fb06623e39c58a2aadfd65a528a9d531714e8f863d44801c8bc694b470.png" title=" Manuel enters '3135349723' into phone" width="1360"/>
+                <img src="53a7d1581dbf333d2bc32a544ef864392958902a2a5f13f25a4ede27c15d5fa9.png" title=" Manuel clicks on gender" width="1360"/>
+                <img src="fe2975459914d239ce47319a2bd6cba794f319bd603eba7750405017bea88b44.png" title=" Manuel clicks on hobbies" width="1360"/>
+                <img src="af6abd82fcfd61b2a10c0f107539323648b0bc0e92374c5c43ca57132efa5f10.png" title=" Manuel clicks on languages" width="1360"/>
+                <img src="61d88f3d2f834e46c5189d80178fec616fa5d345b6510754ed8f7cb70e95ab0b.png" title=" Manuel clicks on languages2" width="1360"/>
+                <img src="4eed177fc59216c30b0b8436609f69066b9a5f3fb96ffb35a50a6b2793fff742.png" title=" Manuel clicks on div" width="1360"/>
+                <img src="a90d74d71c3ad1b590195a1f1e3d34f9f056dfdc018383c249a08bb9c522accf.png" title=" Manuel clicks on skills" width="1360"/>
+                <img src="a622c9b7134c16d5a0e1c45e918d2bae05930a8ecd47f1af7546d1e257efc0b8.png" title=" Manuel clicks on country" width="1360"/>
+                <img src="75574c7341e74b102d4fbbf603c99160ca2df2478edb8f9b7414ba0f0514c293.png" title=" Manuel enters 'japan' into country2" width="1360"/>
+                <img src="75574c7341e74b102d4fbbf603c99160ca2df2478edb8f9b7414ba0f0514c293.png" title=" Manuel types 'ARROW_DOWN' in country2" width="1360"/>
+                <img src="7360776c6f3f0fc896078541ad689435c31a41db5d30d2ee7b1ca89f5d6acbf5.png" title=" Manuel types 'ENTER' in country2" width="1360"/>
+                <img src="6d34a2d15608fd4cd03d3bbbc9e471fb7f00a10f06dd10a34016ffc8c0cbf9e0.png" title=" Manuel enters '1999' into year" width="1360"/>
+                <img src="55e2fa2e0c4012f10456ad696c9143a23249efcde45b0be4b87e5564516040f2.png" title=" Manuel enters 'april' into month" width="1360"/>
+                <img src="8ab9f816e8c2a20d3f0fe9a2808579ad9f79fc3adc9c1dbac9f04d14bd2f645a.png" title=" Manuel enters '13' into day" width="1360"/>
+                <img src="e99bd64ed90fe77038e01c505c73e1e056d4fcd0d291c79eb8c985c807d6ac3e.png" title=" Manuel enters 'Manuelandres1@' into pass" width="1360"/>
+                <img src="b95181abb2dd0d4642ed8e9ad7f26767040145b774805f44f6ddbfb77d97f8f2.png" title=" Manuel enters 'Manuelandres1@' into rpass" width="1360"/>
+                <img src="ee12ccf89aa5bc58062e0c35340c54b8b858e75b747491a456cae8d39b3cdec1.png" title=" Manuel clicks on submit" width="1360"/>
+                <img src="ee12ccf89aa5bc58062e0c35340c54b8b858e75b747491a456cae8d39b3cdec1.png" title=" Manuel register (completed)" width="1360"/>
+                <img src="ee12ccf89aa5bc58062e0c35340c54b8b858e75b747491a456cae8d39b3cdec1.png" title=" When entering the requested data
+| firstname | lastname | address | email | phone | country | year | month | day | pass | rpass |
+| Manuel | Bolano | Cerete-cordoba | manuelbgalindo@gmail.com | 3135349723 | japan | 1999 | april | 13 | Manuelandres1@ | Manuelandres1@ | (completed)" width="1360"/>
+                <img src="48b21224194e7a47e96375ca63ad0d3e1adb6d5c365675f6977d3a6a1c058ef5.png" title=" Then the creation is completed by filling in the data and pressing the button submit
+| button |
+| submit |: <span class='error-color'>ERROR</span>" width="1360"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
